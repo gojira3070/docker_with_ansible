@@ -1,0 +1,6 @@
+---
+# tasks file for docker
+- name : container nginx
+  docker_container:
+   name: mynginx
+   image: nginx

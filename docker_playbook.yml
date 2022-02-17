@@ -1,0 +1,10 @@
+---
+- name: "install de docker"
+  hosts: 172.31.34.30 #client2
+  vars:
+    docker_compose_dir: /home/ubuntu/
+
+  roles:
+    - tools_docker
+    - docker
+
